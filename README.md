@@ -2,23 +2,35 @@
 
 Node.js ve Express.js ile yazılmış görev yönetim REST API'si. Görevler `data/veriler.json` dosyasında tutulur.
 
-## Kurulum
+## Kurulum ve Çalıştırma
 
-Node.js 18 veya üzeri gerekir.
+Node.js v26.7.0 ile yazılmıştır. Yakın veya uyumlu bir versiyon kullanılması gerekir.
 
-```bash
-git clone https://github.com/bugradaryal/taskflowapi.git
-cd taskflowapi
-npm install
-```
+1. Projeyi indir:
+   ```bash
+   git clone https://github.com/bugradaryal/taskflowapi.git
+   ```
+   Git kullanılmıyorsa GitHub sayfasında **Code > Download ZIP** ile indirip klasöre çıkarılır.
 
-## Çalıştırma
+2. Proje klasörüne gir:
+   ```bash
+   cd taskflowapi
+   ```
 
-```bash
-npm run dev
-```
+3. Bağımlılıkları kur:
+   ```bash
+   npm install
+   ```
 
-Sunucu `http://localhost:3000` adresinde açılır. Server.js de port tanımlıdır.
+4. Sunucuyu başlat:
+   ```bash
+   npm run dev
+   ```
+   Terminalde `Sunucu 3000 portunda çalışıyor.` yazısı görülecek.
+
+5. Çalıştığını kontrol et: tarayıcıda `http://localhost:3000/tasks` adresini aç, görev listesi JSON olarak gelmelidir.
+
+Sunucu `http://localhost:3000` adresinde açılır. Sunucu adresi `server.js` içerisinde tanımlıdır.
 
 ## Endpoint'ler
 
