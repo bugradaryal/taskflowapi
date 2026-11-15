@@ -26,7 +26,7 @@ Node.js v26.7.0 ile yazılmıştır. Yakın veya uyumlu bir versiyon kullanılma
    ```bash
    npm run dev
    ```
-   Terminalde `Sunucu 3000 portunda çalışıyor.` yazısı görülecek.
+   Terminalde `Sunucu 3000 portunda çalışıyor` yazısı görülecek.
 
 5. Çalıştığını kontrol et: tarayıcıda `http://localhost:3000/tasks` adresini aç, görev listesi JSON olarak gelmelidir.
 
